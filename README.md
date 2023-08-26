@@ -61,6 +61,7 @@ Complete these tasks before you begin this tutorial:
 
   <img width="473" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/fcae51fb-a0a3-4c8b-93bc-869495e400d3">
 
+  <img width="1121" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/be091937-4965-437e-8120-02a22e34ea62">
 
     
 
