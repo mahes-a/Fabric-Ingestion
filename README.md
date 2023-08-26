@@ -23,6 +23,16 @@ Complete these tasks before you begin this tutorial:
       
   <img width="254" alt="image" src="https://github.com/mahes-a/2023/assets/120069348/ab4a450d-320a-4de1-9f11-f819dea4c2e8">
 
+
+- In the Copy Activity Source section
+   - Choose the connection for bing created in previous step
+   - Choose REST as Connection type
+   - Enter the ?q=weatherinla&mkt=en-us&count=15 as query string , the query to the bing is provided in q=""
+
+  <img width="589" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/08fa5848-4ceb-4290-9427-ea856f8bea67">
+
+- 
+
 ## Approach 1: Using Dataflow Gen2 to Ingest data
 
 - Navigate to the Lakehouse created from your workspace and click "Get Data"-> "New Dataflow Gen2"
