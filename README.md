@@ -93,7 +93,14 @@ Complete these tasks before you begin this tutorial:
 
    <img width="664" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/f04c6ce3-b167-480b-8ade-e0b6f89cb79d">
 
+ - In the Source section of copy activity add
+     - Choose the bing connection created in previous step
+     - Choose REST as connection  type
+     - Choose Relative path as ?q=weatherinla&mkt=en-us&count=15 , the query to bing is provided following "q=" , here "weatherinla" is the bing search query
 
+   <img width="589" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/edf61f71-b694-4129-ba3f-a76eb922d93a">
+
+       
 ## Approach 4: Using OneLake File Explorer to Sync files
 
 - Sign in into the OneLake File Explorer with the same account you used to create the lakehouse
