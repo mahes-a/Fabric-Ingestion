@@ -63,7 +63,10 @@ Complete these tasks before you begin this tutorial:
 
   <img width="955" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/d2d86883-c4c5-4a4f-ad69-ae4c8fcdad3b">
 
-    
+- Open the Lakehouse to verify the table and data
+
+   <img width="839" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/bc9513bc-0dcf-4f23-9740-15f4236774d8">
+
 
 
 
