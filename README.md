@@ -47,9 +47,15 @@ Complete these tasks before you begin this tutorial:
 
   <img width="1030" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/c8aef0ac-35bc-4074-89c9-848bcc644d73">
 
-- Select Append mode and save settings and Repeat the same steps for TX and WA tabs , We will append all the 3 tab data into "Covid_Combined_Data" table in the lakehouse
 
-    <img width="1032" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/ea0bb322-719f-4b48-b51b-b11a3b95483b">
+- Select Append mode and save settings and Repeat the same steps for TX and WA tabs , We will append all the 3 tab data into "Covid_Combined_Data" table in the lakehouse , If there are any column mappings with type "Any" change the column type to Text
+
+    
+     <img width="1045" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/bf624b81-3647-48f9-b5f9-2dcfbd51339b">
+
+     <img width="1032" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/ea0bb322-719f-4b48-b51b-b11a3b95483b">
+
+
 
 - Click on Publish on bottom right in dataflow and wait for publish and refresh to complete in the workspace tab
 
