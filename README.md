@@ -115,6 +115,36 @@ Complete these tasks before you begin this tutorial:
 
    <img width="866" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/e03950f6-8cb5-4306-ae56-c6449a0d09d8">
 
+## Approach 3: Using Notebooks to ingest Data 
+
+- Navigate to the Lakehouse created from your workspace and click "Open notebook"-> "New notebook"
+    
+  <img width="716" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/f0bad0f8-eaff-4930-9b3a-8390c9098d28">
+
+- In the First cell add below content to make REST calls to the bing search , Use the bing search key copied from Azure portal
+
+                import json
+                import os
+                import requests
+                
+                #make REST Api call to bing search 
+                search_url='https://api.bing.microsoft.com/v7.0/search'
+                subscription_key='your key here'
+                mkt = 'en-US'
+                query='current weather in LA'
+                params = { 'q': query, 'mkt': mkt ,"count":50, "answerCount":10 ,"textDecorations": True, "textFormat": "HTML","responseFilter":"webpages" }
+                headers = { 'Ocp-Apim-Subscription-Key': subscription_key }
+
+- Add a code cell and copy the below content to process the bing search results to a dataframe
+  <img width="626" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/cdf97066-53aa-4f97-823d-9d409c39d254">
+  
+              #curate the response fron bing search to dataframe
+              response = requests.get(search_url, headers=headers, params=params)
+              response.raise_for_status()
+              data= (response.json())
+              df_bing = spark.createDataFrame(data['webPages']['value']).select('name','snippet','url')
+              display(df_bing)
+
 
 ## Approach 4: Using OneLake File Explorer to Sync files
 
