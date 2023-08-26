@@ -162,7 +162,44 @@ Complete these tasks before you begin this tutorial:
 
 ## Approach 4: Using Shortcuts to reference data without copying it
 
-- Navigate to the Lakehouse created from your workspace 
+- Download the all-states-hsitory.csv from the repo to local system
+
+- Open the Azure Data Lake Storage Gen2 storage account and create a container with any name\
+  
+- Open the container and upload the all-states-hsitory.csv file from local system
+
+   <img width="1001" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/1d45e090-11ac-4fb2-a6e2-f2100bf3e86c">
+
+   <img width="1011" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/debc478b-c306-41f4-a4a4-1987c50dc58e">
+  
+- Navigate to the Lakehouse created from your workspace and right click on files and "New Shortcut" option
+
+   <img width="317" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/27d06d14-9fd9-4c3e-9eb3-3e2bfcb2e908">
+
+- In the shortcut wizard choose the Azure Data Lake Storage Gen 2
+  
+  - In the URL section enter the url for the container , the url format would be https://<<storageaccountname>>.dfs.core.windows.net/<<containername>>
+  - Add a name for your connection
+  - Authentication choose Account Key method and copy the account key from Storage account , Refer [here](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal#view-account-access-keys) to get the account key
+
+  
+  <img width="964" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/56ae84d7-8bae-4d09-85d0-80c9ddff6359">
+  
+
+  <img width="905" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/0f133282-4cec-4e99-9230-35edab429ff9">
+
+
+
+  <img width="956" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/0ccb9302-49bc-4947-9ee9-c582b6d5abb5">
+
+- In the next step enter shortcut name and click create , If unavailable click on Files and use Refresh option
+  
+  <img width="929" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/ede88c4d-3b46-4577-bac6-59471c4872e5">
+
+
+- The lakehouse automatically refreshes. The shortcut appears under Files in the Explorer pane.
+
+  <img width="737" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/cb70cc3b-7cd7-433a-800e-6d418859e8a9">
 
 
 ## Approach 5: Using OneLake File Explorer to Sync files
