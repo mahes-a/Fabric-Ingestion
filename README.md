@@ -21,7 +21,7 @@ Complete these tasks before you begin this tutorial:
       
       <img width="254" alt="image" src="https://github.com/mahes-a/2023/assets/120069348/ab4a450d-320a-4de1-9f11-f819dea4c2e8">
 
-## Using a Dataflow Gen2 to Ingest data
+## Approach 1: Using a Dataflow Gen2 to Ingest data
 
 - Navigate to the Lakehouse created from your workspace and click "Get Data"-> "New Dataflow Gen2"
 
