@@ -69,8 +69,22 @@ Complete these tasks before you begin this tutorial:
 
    <img width="839" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/bc9513bc-0dcf-4f23-9740-15f4236774d8">
 
+## Approach 2: Using Data Pipelines to ingest Data 
 
-## Approach 2: Using OneLake File Explorer to Sync files
+- Navigate to the Lakehouse created from your workspace and click "Get Data"-> "New Data pipeline" , Name the pipeline and click create 
+
+   <img width="331" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/ef936516-2636-4965-9366-79438cb47783">
+
+   <img width="895" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/99a96d19-81ed-4398-bcd4-a85e09b0fd83">
+
+ - Close the Copy Activity Wizard and add a Copy Activity
+
+   <img width="966" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/514ef55b-85b4-4981-bf49-d67d9ada639e">
+
+   <img width="664" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/f04c6ce3-b167-480b-8ade-e0b6f89cb79d">
+
+
+## Approach 4: Using OneLake File Explorer to Sync files
 
 - Sign in into the OneLake File Explorer with the same account you used to create the lakehouse
   
