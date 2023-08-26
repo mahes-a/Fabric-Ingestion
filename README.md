@@ -11,3 +11,12 @@ Complete these tasks before you begin this tutorial:
 - Bing Searh Resource, Refer [here](https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource) to create a bing serach resource
 
 
+## Create a Lakehouse
+- Browse to your Fabric enabled workspace in Power Bi and switch to Data Engineering persona
+      
+   <img width="71" alt="image" src="https://github.com/mahes-a/2023/assets/120069348/2151ab70-9876-48d7-83b9-42a15490021c">
+      
+  - Click on New Lakehouse and name your lakehouse 
+      <img width="713" alt="image" src="https://github.com/mahes-a/2023/assets/120069348/dc56548d-f030-4200-b150-8b313ea920d9">
+      
+      <img width="254" alt="image" src="https://github.com/mahes-a/2023/assets/120069348/ab4a450d-320a-4de1-9f11-f819dea4c2e8">
