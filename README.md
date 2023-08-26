@@ -114,7 +114,14 @@ Complete these tasks before you begin this tutorial:
    - Enter the folder path
    - Enter Json as the File Format
 
-     <img width="934" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/d1067beb-ec3b-4729-b353-1a5cfae8cb0d">
+   <img width="934" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/d1067beb-ec3b-4729-b353-1a5cfae8cb0d">
+
+ - Click Run the pipeline and select Save and Run and wait for completion
+    <img width="1132" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/fce89e4c-7fe5-424e-8874-4b7b803b4a61">
+
+ - Switch back to the destination Folder path selected in Lakehouse explorer and confirm the file creation
+
+   <img width="866" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/e03950f6-8cb5-4306-ae56-c6449a0d09d8">
 
 
 ## Approach 4: Using OneLake File Explorer to Sync files
