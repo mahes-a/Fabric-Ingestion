@@ -159,7 +159,13 @@ Complete these tasks before you begin this tutorial:
 
   <img width="367" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/fc3d6049-b775-4bac-8e1c-39ee53246d8c">
 
-## Approach 4: Using OneLake File Explorer to Sync files
+
+## Approach 4: Using Shortcuts to reference data without copying it
+
+- Navigate to the Lakehouse created from your workspace 
+
+
+## Approach 5: Using OneLake File Explorer to Sync files
 
 - Sign in into the OneLake File Explorer with the same account you used to create the lakehouse
   
