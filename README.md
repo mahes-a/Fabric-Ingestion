@@ -235,6 +235,6 @@ Complete these tasks before you begin this tutorial:
 
   <img width="335" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/e95a32f3-5668-4413-b5de-96335f4b8f65">
 
-- h
+- Uploaded CSV files are avilable in the Lakehouse files section 
 
 
