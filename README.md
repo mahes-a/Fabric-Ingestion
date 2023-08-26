@@ -224,4 +224,17 @@ Complete these tasks before you begin this tutorial:
   <img width="1110" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/eee657be-42ab-4408-bcd5-3ad2025add24">
 
 
+## Approach 6: Using upload to ingest data 
+
+- Navigate to the Lakehouse created from your workspace and click "Get Data"-> "Upload"
+
+
+  <img width="1142" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/61777f24-a10c-4b37-8a5f-eccf305576c6">
+
+- Upload the all-states-hsitory.csv file from local system
+
+  <img width="335" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/e95a32f3-5668-4413-b5de-96335f4b8f65">
+
+- h
+
 
