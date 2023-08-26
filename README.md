@@ -104,11 +104,19 @@ Complete these tasks before you begin this tutorial:
 
       <img width="947" alt="image" src="https://github.com/mahes-a/StagingBuild/assets/120069348/be07fc54-3099-42db-8792-74d5da16a8c1">
 
- - Click on Addiitonal headers , click New and enter Name as "Ocp-Apim-Subscription-Key" and value as the Key copied
+ - Click on Additional headers , click New and enter Name as "Ocp-Apim-Subscription-Key" and value as the Key copied
 
    <img width="620" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/a90d5d0b-d3a7-49e6-acbf-1f5ff2c49391">
 
-   
+ - In the Destination Section
+   - Choose the Lakehouse
+   - Choose Files
+   - Enter the folder path
+   - Enter Json as the File Format
+
+     <img width="934" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/d1067beb-ec3b-4729-b353-1a5cfae8cb0d">
+
+
 ## Approach 4: Using OneLake File Explorer to Sync files
 
 - Sign in into the OneLake File Explorer with the same account you used to create the lakehouse
