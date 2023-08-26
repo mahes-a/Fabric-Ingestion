@@ -121,7 +121,7 @@ Complete these tasks before you begin this tutorial:
     
   <img width="716" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/f0bad0f8-eaff-4930-9b3a-8390c9098d28">
 
-- In the First cell add below content to make REST calls to the bing search , Use the bing search key copied from Azure portal
+- In the First cell add below content  and execute to make REST calls to the bing search , Use the bing search key copied from Azure portal
 
                 import json
                 import os
@@ -135,7 +135,7 @@ Complete these tasks before you begin this tutorial:
                 params = { 'q': query, 'mkt': mkt ,"count":50, "answerCount":10 ,"textDecorations": True, "textFormat": "HTML","responseFilter":"webpages" }
                 headers = { 'Ocp-Apim-Subscription-Key': subscription_key }
 
-- Add a code cell and copy the below content to process the bing search results to a dataframe
+- Add a code cell and copy the below content and and execute to process the bing search results to a dataframe
   <img width="626" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/cdf97066-53aa-4f97-823d-9d409c39d254">
   
               #curate the response fron bing search to dataframe
@@ -144,7 +144,20 @@ Complete these tasks before you begin this tutorial:
               data= (response.json())
               df_bing = spark.createDataFrame(data['webPages']['value']).select('name','snippet','url')
               display(df_bing)
+  
+- In the next code cell ,copy the code below and execute , To learn more about V-ordering refer [here](https://learn.microsoft.com/en-us/fabric/data-engineering/delta-optimization-and-v-order?tabs=sparksql#what-is-v-order)
 
+              #enable vordering for performance and set delta parquet file size
+              spark.conf.set("spark.sql.parquet.vorder.enabled", "true")
+              spark.conf.set("spark.microsoft.delta.optimizeWrite.enabled", "true")
+              spark.conf.set("spark.microsoft.delta.optimizeWrite.binSize", "1073741824")
+
+- In the next code cell ,copy the code below and execute to craete a table and after completion verify the table is created with data 
+
+            #write dataframe to table 
+            df_bing.write.mode("overwrite").format("delta").option("overwriteSchema", "true").save("Tables/bingresults")
+
+  <img width="367" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/fc3d6049-b775-4bac-8e1c-39ee53246d8c">
 
 ## Approach 4: Using OneLake File Explorer to Sync files
 
