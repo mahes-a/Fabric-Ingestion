@@ -59,8 +59,6 @@ Complete these tasks before you begin this tutorial:
 
 - Click on Publish on bottom right in dataflow and wait for publish and refresh to complete in the workspace tab , After refresh click on refresh history to find the details of the refresh
 
-  <img width="473" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/fcae51fb-a0a3-4c8b-93bc-869495e400d3">
-
   <img width="1121" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/be091937-4965-437e-8120-02a22e34ea62">
 
   <img width="955" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/d2d86883-c4c5-4a4f-ad69-ae4c8fcdad3b">
