@@ -23,15 +23,7 @@ Complete these tasks before you begin this tutorial:
       
   <img width="254" alt="image" src="https://github.com/mahes-a/2023/assets/120069348/ab4a450d-320a-4de1-9f11-f819dea4c2e8">
 
-
-- In the Copy Activity Source section
-   - Choose the connection for bing created in previous step
-   - Choose REST as Connection type
-   - Enter the ?q=weatherinla&mkt=en-us&count=15 as query string , the query to the bing is provided in q=""
-
-  <img width="589" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/08fa5848-4ceb-4290-9427-ea856f8bea67">
-
-- 
+ 
 
 ## Approach 1: Using Dataflow Gen2 to Ingest data
 
@@ -102,13 +94,13 @@ Complete these tasks before you begin this tutorial:
 
 - From your Azure Portal Bing Search resource in Azure Keys and Endpoints section , copy the keys
 
-      <img width="947" alt="image" src="https://github.com/mahes-a/StagingBuild/assets/120069348/be07fc54-3099-42db-8792-74d5da16a8c1">
+  <img width="947" alt="image" src="https://github.com/mahes-a/StagingBuild/assets/120069348/be07fc54-3099-42db-8792-74d5da16a8c1">
 
- - Click on Additional headers , click New and enter Name as "Ocp-Apim-Subscription-Key" and value as the Key copied
+- Click on Additional headers , click New and enter Name as "Ocp-Apim-Subscription-Key" and value as the Key copied
 
    <img width="620" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/a90d5d0b-d3a7-49e6-acbf-1f5ff2c49391">
 
- - In the Destination Section
+- In the Destination Section
    - Choose the Lakehouse
    - Choose Files
    - Enter the folder path
@@ -116,10 +108,10 @@ Complete these tasks before you begin this tutorial:
 
    <img width="934" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/d1067beb-ec3b-4729-b353-1a5cfae8cb0d">
 
- - Click Run the pipeline and select Save and Run and wait for completion
+- Click Run the pipeline and select Save and Run and wait for completion
     <img width="1132" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/fce89e4c-7fe5-424e-8874-4b7b803b4a61">
 
- - Switch back to the destination Folder path selected in Lakehouse explorer and confirm the file creation
+- Switch back to the destination Folder path selected in Lakehouse explorer and confirm the file creation
 
    <img width="866" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/e03950f6-8cb5-4306-ae56-c6449a0d09d8">
 
