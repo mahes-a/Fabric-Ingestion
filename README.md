@@ -23,3 +23,14 @@ Complete these tasks before you begin this tutorial:
 
 ## Using a Dataflow Gen2 to Ingest data
 
+- Navigate to the Lakehouse created from your workspace and click "Get Data"-> "New Dataflow Gen2"
+
+   <img width="331" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/ef936516-2636-4965-9366-79438cb47783">
+   
+   <img width="560" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/f6507cc1-21a1-4a21-b6d3-fc41ae37a1fb">
+
+- Name the dataflow and choose the appropriate sensitivity label and click on "Import From Excel"
+
+  <img width="959" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/f2a8fb4f-f6fa-4b99-abbd-892d0aea8b07">
+
+  
