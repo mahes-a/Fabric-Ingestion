@@ -10,7 +10,8 @@ Complete these tasks before you begin this tutorial:
   
 - Bing Searh Resource, Refer [here](https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource) to create a bing serach resource
 
-
+- Microsoft OneLake file explorer for Windows , Download [here](https://www.microsoft.com/en-us/download/details.aspx?id=105222)
+  
 ## Create a Lakehouse
 - Browse to your Fabric enabled workspace in Power Bi and switch to Data Engineering persona
       
