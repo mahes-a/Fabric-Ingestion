@@ -100,7 +100,15 @@ Complete these tasks before you begin this tutorial:
 
    <img width="589" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/edf61f71-b694-4129-ba3f-a76eb922d93a">
 
-       
+- From your Azure Portal Bing Search resource in Azure Keys and Endpoints section , copy the keys
+
+      <img width="947" alt="image" src="https://github.com/mahes-a/StagingBuild/assets/120069348/be07fc54-3099-42db-8792-74d5da16a8c1">
+
+ - Click on Addiitonal headers , click New and enter Name as "Ocp-Apim-Subscription-Key" and value as the Key copied
+
+   <img width="620" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/a90d5d0b-d3a7-49e6-acbf-1f5ff2c49391">
+
+   
 ## Approach 4: Using OneLake File Explorer to Sync files
 
 - Sign in into the OneLake File Explorer with the same account you used to create the lakehouse
