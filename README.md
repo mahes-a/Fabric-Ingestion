@@ -10,7 +10,7 @@ Complete these tasks before you begin this tutorial:
   
 - Bing Searh Resource, Refer [here](https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource) to create a bing serach resource
 
-- Microsoft OneLake file explorer for Windows , Download [here](https://www.microsoft.com/en-us/download/details.aspx?id=105222)
+- Microsoft OneLake file explorer for Windows , Installation instructions are [here](https://learn.microsoft.com/en-us/fabric/onelake/onelake-file-explorer#installation-instructions)
   
 ## Create a Lakehouse
 - Browse to your Fabric enabled workspace in Power Bi and switch to Data Engineering persona
@@ -22,7 +22,7 @@ Complete these tasks before you begin this tutorial:
       
       <img width="254" alt="image" src="https://github.com/mahes-a/2023/assets/120069348/ab4a450d-320a-4de1-9f11-f819dea4c2e8">
 
-## Approach 1: Using a Dataflow Gen2 to Ingest data
+## Approach 1: Using Dataflow Gen2 to Ingest data
 
 - Navigate to the Lakehouse created from your workspace and click "Get Data"-> "New Dataflow Gen2"
 
@@ -69,6 +69,26 @@ Complete these tasks before you begin this tutorial:
    <img width="839" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/bc9513bc-0dcf-4f23-9740-15f4236774d8">
 
 
+## Approach 2: Using OneLake File Explorer to Sync files
+
+- Sign in into the OneLake File Explorer with the same account you used to create the lakehouse
+  
+- Browse to the Lakehouse folder and the files folder
+
+  <img width="1067" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/4f8f954e-d8d1-4872-89fa-154e6412c4d4">
+
+- Copy the files into the OneLake File Explorer 
+
+  <img width="1070" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/23405711-243a-4806-b404-12701da615c6">
+
+- Navigate to the Lakehouse in [Fabric Portal](https://app.powerbi.com) and confirm the files are available in the Files section
+
+
+  <img width="1132" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/58b330c6-6118-404a-9b6d-8809db546809">
+
+- If unavailable click on Files and use Refresh option
+
+  <img width="1110" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/eee657be-42ab-4408-bcd5-3ad2025add24">
 
 
 
